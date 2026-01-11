@@ -9,7 +9,6 @@ const char* password = "YOUR_WIFI_pass";
 
 Adafruit_NeoPixel led(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
-// renamed enum values to avoid conflicts with ESP32 headers
 enum Mode {
   MODE_OK,       // is ok ithink
   ALERT,
@@ -125,3 +124,4 @@ void loop() {
       break;
   }
 }
+
