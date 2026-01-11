@@ -37,3 +37,17 @@ Before flashing, change the following lines in the code:
 ```cpp
 const char* ssid = "YOUR_WIFI_NAME";
 const char* password = "YOUR_WIFI_PASSWORD";
+
+## External Output Support (Planned)
+
+Future versions will allow the ESP32 to control external lights such as
+5V LED strips using GPIO pins and driver modules.
+
+Planned capabilities:
+- External LED strip control (5V VCC + GND)
+- Blinking patterns based on Wi-Fi status
+- Dimming using PWM
+- Support for driver modules (MOSFET / relay)
+
+This will allow the indicator to control desk lights or room lighting
+instead of only using the built-in RGB LED.
